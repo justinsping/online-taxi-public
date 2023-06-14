@@ -37,7 +37,7 @@ public class VerifyCodeService {
         int numberCode = numberCodeResponse.getData().getNumCode();
 
         // 存入redis 并设置过期时间
-        String key = RedisPrefixUtils.generatorKeyByPhone(passengerPhone);
+        String key = RedisPrefixUtils.generatorKeyByPhone(passengerPhone, IdentityConstant.PASSENGER_IDENTITY);
         stringRedisTemplate.opsForValue().set(key, numberCode+"", 2, TimeUnit.MINUTES);
 
         // 通过短信服务商，将相应的验证码发送到用户手机上
@@ -47,7 +47,7 @@ public class VerifyCodeService {
     public ResponseResult checkVerifyCode(String passengerPhone, String verificationCode) {
         // 根据手机号，去redis获取对应的验证码
         // 生成key
-        String key = RedisPrefixUtils.generatorKeyByPhone(passengerPhone);
+        String key = RedisPrefixUtils.generatorKeyByPhone(passengerPhone, IdentityConstant.PASSENGER_IDENTITY);
         // 根据key获取value
         String codeRedis = stringRedisTemplate.opsForValue().get(key);
 
