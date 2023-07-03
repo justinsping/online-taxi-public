@@ -1,0 +1,51 @@
+key: 5f83ec849e76f470461284d7332af856
+
+服务创建
+{
+    "data": {
+        "name": "飞滴出行",
+        "sid": 964058
+    },
+    "errcode": 10000,
+    "errdetail": null,
+    "errmsg": "OK"
+}
+{
+    "code": 1,
+    "message": "success",
+    "data": {
+        "sid": "964578"
+    }
+}
+
+终端创建
+{
+    "data": {
+        "name": "车辆1",
+        "tid": 714188748,
+        "sid": 964058
+    },
+    "errcode": 10000,
+    "errdetail": null,
+    "errmsg": "OK"
+}
+
+// 20230703车辆1
+{
+    "code": 1,
+    "message": "success",
+    "data": {
+        "tid": "721024882"
+    }
+}
+
+
+创建轨迹
+{
+    "data": {
+        "trid": 20
+    },
+    "errcode": 10000,
+    "errdetail": null,
+    "errmsg": "OK"
+}
