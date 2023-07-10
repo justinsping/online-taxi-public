@@ -1,6 +1,7 @@
 package com.zsp.servicemap.controller;
 
 import com.zsp.dto.ResponseResult;
+import com.zsp.response.TerminalResponse;
 import com.zsp.servicemap.service.TerminalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,8 +21,8 @@ public class TerminalController {
      * @return
      */
     @PostMapping("/add")
-    public ResponseResult add(String name) {
-        return terminalService.add(name);
+    public ResponseResult<TerminalResponse> add(String name, String desc) {
+        return terminalService.add(name, desc);
     }
 
     /**

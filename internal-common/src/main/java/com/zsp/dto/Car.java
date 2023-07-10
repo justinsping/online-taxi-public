@@ -167,6 +167,21 @@ public class Car implements Serializable {
     private Boolean state;
 
     /**
+     * 终端id
+     */
+    private String tid;
+
+    /**
+     * 轨迹id
+     */
+    private String trid;
+
+    /**
+     * 轨迹name
+     */
+    private String trname;
+
+    /**
      * 创建时间
      */
     private LocalDateTime gmtCreate;

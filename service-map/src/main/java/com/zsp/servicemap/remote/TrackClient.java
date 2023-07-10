@@ -26,7 +26,7 @@ public class TrackClient {
     @Autowired
     private RestTemplate restTemplate;
 
-    public ResponseResult add(String tid) {
+    public ResponseResult<TrackResponse> add(String tid) {
         StringBuilder url = new StringBuilder();
         url.append(AmapConfigConstants.TRACK_ADD_URL);
         url.append("?");

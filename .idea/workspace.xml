@@ -4,9 +4,30 @@
     <list default="true" id="2cffbce1-bbf6-48b9-9642-10afd2924943" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/constant/AmapConfigConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/constant/AmapConfigConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-driver/src/main/java/com/zsp/apiDriver/remote/ServiceDriverUserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-driver/src/main/java/com/zsp/apiDriver/remote/ServiceDriverUserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/constant/CommonStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/constant/CommonStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/dto/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/dto/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal-common/target/classes/com/zsp/constant/AmapConfigConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/target/classes/com/zsp/constant/AmapConfigConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-map/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/target/classes/com/zsp/dto/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/target/classes/com/zsp/dto/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/src/main/java/com/zsp/serviceDriverUser/ServiceDriveUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/src/main/java/com/zsp/serviceDriverUser/ServiceDriveUserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/src/main/java/com/zsp/serviceDriverUser/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/src/main/java/com/zsp/serviceDriverUser/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/src/main/java/com/zsp/serviceDriverUser/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/src/main/java/com/zsp/serviceDriverUser/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/target/classes/com/zsp/serviceDriverUser/ServiceDriveUserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/target/classes/com/zsp/serviceDriverUser/ServiceDriveUserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/target/classes/com/zsp/serviceDriverUser/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/target/classes/com/zsp/serviceDriverUser/controller/CarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/target/classes/com/zsp/serviceDriverUser/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/target/classes/com/zsp/serviceDriverUser/service/CarService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/controller/TerminalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/controller/TerminalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/controller/TrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/controller/TrackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/remote/TerminalClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/remote/TerminalClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/remote/TrackClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/remote/TrackClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/service/TerminalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/service/TerminalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/service/TrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/src/main/java/com/zsp/servicemap/service/TrackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/controller/TerminalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/controller/TerminalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/controller/TrackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/controller/TrackController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/remote/TerminalClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/remote/TerminalClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/remote/TrackClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/remote/TrackClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/service/TerminalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/service/TerminalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/service/TrackService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-map/target/classes/com/zsp/servicemap/service/TrackService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,6 +68,12 @@
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="D:\oftenApps\apache-maven-3.8.5\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="2BnnnXvWomg0Bx0K3zDqAwfvgo8" />
@@ -66,19 +93,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23908046" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zsp.servicemap.remote" />
-      <recent name="com.zsp.servicemap.service" />
-      <recent name="com.zsp.apiDriver.remote" />
-      <recent name="com.zsp.apiBoss.service" />
-      <recent name="com.zsp.apiDriver.service" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zsp.servicepassengeruser" />
       <recent name="com.zsp.constant" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myWorkSpace\back_end\java\mashibing\online-taxi-public\internal-common\src\main\java\com\zsp\dto" />
+      <recent name="D:\myWorkSpace\back_end\java\mashibing\online-taxi-public\internal-common\src\main\java\com\zsp\response" />
+      <recent name="D:\myWorkSpace\back_end\java\mashibing\online-taxi-public\service-passenger-user\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zsp.apiDriver.remote" />
@@ -86,10 +111,12 @@
       <recent name="com.zsp.dto" />
       <recent name="com.zsp.request" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myWorkSpace\back_end\java\mashibing\online-taxi-public\internal-common\src\main\java\com\zsp\dto" />
-      <recent name="D:\myWorkSpace\back_end\java\mashibing\online-taxi-public\internal-common\src\main\java\com\zsp\response" />
-      <recent name="D:\myWorkSpace\back_end\java\mashibing\online-taxi-public\service-passenger-user\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zsp.apiDriver.service" />
+      <recent name="com.zsp.servicemap.remote" />
+      <recent name="com.zsp.servicemap.service" />
+      <recent name="com.zsp.apiDriver.remote" />
+      <recent name="com.zsp.apiBoss.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceMapApplication">
+  <component name="RunManager" selected="Spring Boot.ApiDriverApplication">
     <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zsp.serviceDriverUser.generator.MysqlGenerator" />
       <module name="service-driver-user" />
@@ -196,8 +223,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceDriveUserApplication" />
         <item itemvalue="Spring Boot.ApiDriverApplication" />
+        <item itemvalue="Spring Boot.ServiceDriveUserApplication" />
         <item itemvalue="Spring Boot.ApiBossApplication" />
         <item itemvalue="Application.MysqlGenerator" />
         <item itemvalue="Spring Boot.ServicePassengerUserApplication" />
@@ -245,7 +272,10 @@
       <workItem from="1687009100546" duration="1263000" />
       <workItem from="1687451136302" duration="2866000" />
       <workItem from="1687623177517" duration="2716000" />
-      <workItem from="1688391815948" duration="6542000" />
+      <workItem from="1688391815948" duration="6750000" />
+      <workItem from="1688486077158" duration="1531000" />
+      <workItem from="1688569038627" duration="1929000" />
+      <workItem from="1688999767604" duration="6871000" />
     </task>
     <servers />
   </component>

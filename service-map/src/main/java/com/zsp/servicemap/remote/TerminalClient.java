@@ -1,6 +1,7 @@
 package com.zsp.servicemap.remote;
 
 import com.zsp.constant.AmapConfigConstants;
+import com.zsp.constant.CommonStatusEnum;
 import com.zsp.dto.ResponseResult;
 import com.zsp.response.TerminalResponse;
 import net.sf.json.JSONArray;
@@ -26,7 +27,7 @@ public class TerminalClient {
     @Autowired
     private RestTemplate restTemplate;
 
-    public ResponseResult add(String name) {
+    public ResponseResult<TerminalResponse> add(String name, String desc) {
         StringBuilder url = new StringBuilder();
         url.append(AmapConfigConstants.TERMINAL_ADD_URL);
         url.append("?");
@@ -35,11 +36,17 @@ public class TerminalClient {
         url.append("sid="+amapSid);
         url.append("&");
         url.append("name="+name);
+        url.append("&");
+        url.append("desc="+desc);
 
         ResponseEntity<String> stringResponseEntity = restTemplate.postForEntity(url.toString(), null, String.class);
         String body = stringResponseEntity.getBody();
         JSONObject result = JSONObject.fromObject(body);
         JSONObject data = result.getJSONObject("data");
+        // 当填入的terminal已存在，则返回的data为空
+        if (data.isNullObject()) {
+            return ResponseResult.fail(CommonStatusEnum.TERMINAL_EXIST.getCode(), CommonStatusEnum.TERMINAL_EXIST.getValue());
+        }
         String tid = data.getString("tid");
 
         TerminalResponse terminalResponse = new TerminalResponse();

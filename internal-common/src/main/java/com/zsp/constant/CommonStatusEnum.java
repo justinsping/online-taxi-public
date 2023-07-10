@@ -8,6 +8,7 @@ public enum CommonStatusEnum {
     /**
      * 司机和车辆：1500-1599
      */
+    TERMINAL_EXIST(1799, "终端已存在"),
     DRIVER_NOT_EXIST(1699, "司机不存在"),
     DRIVER_CAR_BIND_NOT_EXISTS(1500,"司机和车辆绑定关系不存在"),
     MAP_DISTRICT_ERROR(1499, "请求行政错误"),
