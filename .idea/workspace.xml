@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cffbce1-bbf6-48b9-9642-10afd2924943" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-driver/src/main/java/com/zsp/apiDriver/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/target/classes/com/zsp/apipassenger/service/VerifyCodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/target/classes/com/zsp/apipassenger/service/VerifyCodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/端口管理.md" beforeDir="false" afterPath="$PROJECT_DIR$/端口管理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zsp/apipassenger/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zsp/apipassenger/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/target/classes/com/zsp/apipassenger/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/target/classes/com/zsp/apipassenger/service/UserService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,13 +109,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication">
-    <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsp.serviceDriverUser.generator.MysqlGenerator" />
-      <module name="service-driver-user" />
+  <component name="RunManager" selected="Spring Boot.ServicePassengerUserApplication">
+    <configuration name="MysqlGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsp.serviceorder.generator.MysqlGenerator" />
+      <module name="service-order" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsp.serviceDriverUser.generator.*" />
+          <option name="PATTERN" value="com.zsp.serviceorder.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,6 +191,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServicePassengerUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-passenger-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zsp.servicepassengeruser.ServicePassengerUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceVerifycodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-verifycode" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zsp.serviceverifycode.ServiceVerifycodeApplication" />
@@ -204,7 +209,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MysqlGenerator" />
+      <item itemvalue="Application.MysqlGenerator (1)" />
+      <item itemvalue="Spring Boot.ServicePassengerUserApplication" />
       <item itemvalue="Spring Boot.ServiceMapApplication" />
       <item itemvalue="Spring Boot.ServiceVerifycodeApplication" />
       <item itemvalue="Spring Boot.ServiceOrderApplication" />
@@ -216,10 +222,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ApiPassengerApplication" />
+        <item itemvalue="Application.MysqlGenerator (1)" />
         <item itemvalue="Spring Boot.ApiDriverApplication" />
         <item itemvalue="Spring Boot.ServiceDriveUserApplication" />
         <item itemvalue="Spring Boot.ApiBossApplication" />
-        <item itemvalue="Application.MysqlGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -273,8 +279,18 @@
       <workItem from="1691205472233" duration="4451000" />
       <workItem from="1694842025957" duration="1392000" />
       <workItem from="1695054138479" duration="233000" />
-      <workItem from="1699277563087" duration="3688000" />
+      <workItem from="1699277563087" duration="4599000" />
+      <workItem from="1699536578717" duration="3833000" />
+      <workItem from="1699882891980" duration="4206000" />
     </task>
+    <task id="LOCAL-00001" summary="service-order框架完成">
+      <created>1699282180048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699282180048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,5 +308,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="service-order框架完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="service-order框架完成" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-order/src/main/java/com/zsp/serviceorder/controller/OrderInfoController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

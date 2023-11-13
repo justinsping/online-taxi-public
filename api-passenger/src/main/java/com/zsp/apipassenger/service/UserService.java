@@ -1,6 +1,7 @@
 package com.zsp.apipassenger.service;
 
 import com.zsp.apipassenger.remote.ServicePassengerUserClient;
+import com.zsp.dto.PassengerUser;
 import com.zsp.dto.ResponseResult;
 import com.zsp.dto.TokenResult;
 import com.zsp.util.JwtUtils;
@@ -18,7 +19,7 @@ public class UserService {
         TokenResult tokenResult = JwtUtils.parseToken(accessToken);
         String phone = tokenResult.getPhone();
         // 调用user服务
-        ResponseResult user = servicePassengerUserClient.getUser(phone);
+        ResponseResult<PassengerUser> user = servicePassengerUserClient.getUser(phone);
 
 
         return ResponseResult.success(user.getData());
