@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2cffbce1-bbf6-48b9-9642-10afd2924943" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zsp/apipassenger/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zsp/apipassenger/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-passenger/target/classes/com/zsp/apipassenger/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/target/classes/com/zsp/apipassenger/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/dto/PriceRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/dto/PriceRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-price/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/mapper/PriceRuleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/mapper/PriceRuleMapper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,9 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -109,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServicePassengerUserApplication">
+  <component name="RunManager" selected="Spring Boot.ServicePriceApplication">
     <configuration name="MysqlGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zsp.serviceorder.generator.MysqlGenerator" />
       <module name="service-order" />
@@ -123,15 +127,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiBossApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="api-boss" />
+    <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsp.serviceprice.generator.MysqlGenerator" />
+      <module name="service-price" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsp.apiBoss.*" />
+          <option name="PATTERN" value="com.zsp.serviceprice.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zsp.apiBoss.ApiBossApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,6 +205,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServicePriceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-price" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zsp.serviceprice.ServicePriceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceVerifycodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-verifycode" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zsp.serviceverifycode.ServiceVerifycodeApplication" />
@@ -210,22 +222,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.MysqlGenerator (1)" />
+      <item itemvalue="Application.MysqlGenerator" />
+      <item itemvalue="Spring Boot.ServicePriceApplication" />
       <item itemvalue="Spring Boot.ServicePassengerUserApplication" />
       <item itemvalue="Spring Boot.ServiceMapApplication" />
       <item itemvalue="Spring Boot.ServiceVerifycodeApplication" />
       <item itemvalue="Spring Boot.ServiceOrderApplication" />
       <item itemvalue="Spring Boot.ServiceDriveUserApplication" />
-      <item itemvalue="Spring Boot.ApiBossApplication" />
       <item itemvalue="Spring Boot.ApiDriverApplication" />
       <item itemvalue="Spring Boot.ApiPassengerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MysqlGenerator" />
         <item itemvalue="Spring Boot.ApiPassengerApplication" />
         <item itemvalue="Application.MysqlGenerator (1)" />
         <item itemvalue="Spring Boot.ApiDriverApplication" />
         <item itemvalue="Spring Boot.ServiceDriveUserApplication" />
-        <item itemvalue="Spring Boot.ApiBossApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +294,8 @@
       <workItem from="1695054138479" duration="233000" />
       <workItem from="1699277563087" duration="4599000" />
       <workItem from="1699536578717" duration="3833000" />
-      <workItem from="1699882891980" duration="4206000" />
+      <workItem from="1699882891980" duration="4388000" />
+      <workItem from="1699968312758" duration="5135000" />
     </task>
     <task id="LOCAL-00001" summary="service-order框架完成">
       <created>1699282180048</created>
@@ -290,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699282180048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="乘客下单信息补全">
+      <created>1699889819221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699889819221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +332,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="service-order框架完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="service-order框架完成" />
+    <MESSAGE value="乘客下单信息补全" />
+    <option name="LAST_COMMIT_MESSAGE" value="乘客下单信息补全" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -320,6 +342,11 @@
           <url>file://$PROJECT_DIR$/service-order/src/main/java/com/zsp/serviceorder/controller/OrderInfoController.java</url>
           <line>31</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/service/PriceRuleService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
