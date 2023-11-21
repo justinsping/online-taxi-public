@@ -11,4 +11,7 @@ public class ForecastPriceDTO implements Serializable {
     private String depLatitude;
     private String destLongitude;
     private String destLatitude;
+
+    private String cityCode;
+    private String vehicleType;
 }

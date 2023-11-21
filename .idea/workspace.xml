@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2cffbce1-bbf6-48b9-9642-10afd2924943" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/dto/PriceRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/dto/PriceRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-price/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/mapper/PriceRuleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/mapper/PriceRuleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zsp/apipassenger/controller/ForecastPriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zsp/apipassenger/controller/ForecastPriceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/com/zsp/apipassenger/service/ForecastPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/com/zsp/apipassenger/service/ForecastPriceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/target/classes/com/zsp/apipassenger/service/ForecastPriceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/target/classes/com/zsp/apipassenger/service/ForecastPriceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/constant/CommonStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/constant/CommonStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/request/ForecastPriceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/request/ForecastPriceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/response/ForecastPriceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/zsp/response/ForecastPriceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/target/classes/com/zsp/constant/CommonStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/target/classes/com/zsp/constant/CommonStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/controller/ForecastPriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/controller/ForecastPriceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/service/ForecastPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/service/ForecastPriceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-price/target/classes/com/zsp/serviceprice/service/ForecastPriceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/target/classes/com/zsp/serviceprice/service/ForecastPriceService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,8 +241,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MysqlGenerator" />
         <item itemvalue="Spring Boot.ApiPassengerApplication" />
+        <item itemvalue="Application.MysqlGenerator" />
         <item itemvalue="Application.MysqlGenerator (1)" />
         <item itemvalue="Spring Boot.ApiDriverApplication" />
         <item itemvalue="Spring Boot.ServiceDriveUserApplication" />
@@ -296,6 +303,10 @@
       <workItem from="1699536578717" duration="3833000" />
       <workItem from="1699882891980" duration="4388000" />
       <workItem from="1699968312758" duration="5135000" />
+      <workItem from="1699977364989" duration="68000" />
+      <workItem from="1700489286314" duration="34000" />
+      <workItem from="1700489329815" duration="2508000" />
+      <workItem from="1700573639710" duration="3730000" />
     </task>
     <task id="LOCAL-00001" summary="service-order框架完成">
       <created>1699282180048</created>
@@ -311,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699889819221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加计价规则">
+      <created>1699977404679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699977404679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +351,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="service-order框架完成" />
     <MESSAGE value="乘客下单信息补全" />
-    <option name="LAST_COMMIT_MESSAGE" value="乘客下单信息补全" />
+    <MESSAGE value="添加计价规则" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加计价规则" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -342,11 +361,6 @@
           <url>file://$PROJECT_DIR$/service-order/src/main/java/com/zsp/serviceorder/controller/OrderInfoController.java</url>
           <line>31</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service-price/src/main/java/com/zsp/serviceprice/service/PriceRuleService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
